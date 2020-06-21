@@ -1,0 +1,138 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% static "images" as baseURL %}
+{% block content %}
+
+    <!-- END nav -->
+
+    <div class="hero-wrap hero-bread" style="background-image: url('{% static 'images/bg_1.jpg' %}');">
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-0 bread">Liên hệ</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section contact-section bg-light">
+      <div class="container">
+      	<div class="row d-flex mb-5 contact-info">
+          <div class="w-100"></div>
+          <div class="col-md-3 d-flex">
+          	<div class="info bg-white p-4">
+	            <p><span>Địa chỉ:</span> 140 Lê Trọng Tấn, Tây Thạnh , quận Tân Phú, TP. Hồ Chí Minh</p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="info bg-white p-4">
+	            <p><span>Điện thoại:</span> <a href="tel://1234567920">+84 3899258</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="info bg-white p-4">
+	            <p><span>Email:</span> <a href="mailto:info@yoursite.com">nongsansach.food@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="info bg-white p-4">
+	            <p><span>Website:</span> <a href="index.html">nongsansach.com</a></p>
+	          </div>
+          </div>
+        </div>
+        <div class="row block-9">
+          <div class="col-md-12 order-md-last d-flex">
+            <form action="#" class="bg-white p-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Họ Tên">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Địa chỉ email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Điện thoại liên hệ">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Nội dung"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Gửi" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section class="bg-light">
+            <footer class="ftco-footer ftco-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="mouse">
+                            <a href="#" class="mouse-icon">
+                                <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="ftco-footer-widget">
+                                <h2 class="ftco-heading-2">Nông sản sạch</h2>
+                                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                          <div class="ftco-footer-widget ml-md-5">
+                              <h2 class="ftco-heading-2">Menu</h2>
+                              <ul class="list-unstyled">
+                                  <li><a href="index.html" class="py-2 d-block">Trang chủ</a></li>
+                                  <li><a href="shop.html" class="py-2 d-block">Sản Phẩm</a></li>
+                                  <li><a href="about.html" class="py-2 d-block">Giới thiệu</a></li>
+                                  <li><a href="contact.html" class="py-2 d-block">Liên hệ</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                        <div class="col-md-3">
+                            <div class="ftco-footer-widget">
+                                <h2 class="ftco-heading-2">Liên hệ</h2>
+                                <div class="d-flex">
+                                    <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+                                        <li><a href="#" class="py-2 d-block">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="ftco-footer-widget">
+                                <h2 class="ftco-heading-2">Địa chỉ</h2>
+                                <div class="block-23">
+                                    <ul>
+                                        <li><span class="icon icon-map-marker"></span><span class="text">140 Lê Trọng Tấn, Tây Thạnh Tân Phú, HCM</span></li>
+                                        <li><a href="#"><span class="icon icon-phone"></span><span class="text">84+ 3899258</span></a></li>
+                                        <li><a href="#"><span class="icon icon-envelope"></span><span class="text">nongsansach.food@gmail.com</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+            <hr>
+            <div class="text-center bg-light pt-2 pb-2">
+                <p>@Copyright 2020</p>
+            </div>
+        </section>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  {% endblock content %}
